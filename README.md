@@ -32,7 +32,8 @@ This repository utilizes a convolutional neural network to classify images of do
 
 ## Google Colab GPU Setup
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eyyw3FI9XAV3lqW4F3A1WfsCXkYXWoVK?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eyyw3FI9XAV3lqW4F3A1WfsCXkYXWoVK?usp=sharing).
+
 To run the code on Google Colab using a GPU, follow these steps:
 1. Open a new Colab notebook and select "Runtime" > "Change runtime type".
 2. Set the hardware accelerator to "GPU".
