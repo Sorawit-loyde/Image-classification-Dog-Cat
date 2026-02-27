@@ -13,17 +13,8 @@ This repository utilizes a convolutional neural network to classify images of do
 ## Requirements
 
 - Python version: **3.12.9**  
-  Ensure you have Python 3.12.9 installed. 
-
-- TensorFlow:  
-  Install TensorFlow for CPU:
-  ```bash
-  pip install tensorflow==2.12.0
-  ```
-  Alternatively, if you prefer using a GPU:
-  ```bash
-  pip install tensorflow-gpu==2.12.0
-  ```
+  Ensure you have Python 3.12.9 installed.
+  
 ## Installation and Setup
 1. Clone the repository:
    ```bash
