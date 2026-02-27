@@ -2,6 +2,14 @@
 
 This repository utilizes a convolutional neural network to classify images of dogs and cats and recognize which category they belong to. The goal is to achieve high accuracy through various training techniques and optimizations.
 
+## Table of Contents
+- [Requirements](#requirements)
+- [Installation and Setup](#installation-and-setup)
+- [Key Features](#key-features)
+- [Google Colab GPU Setup](#google-colab-gpu-setup)
+- [Dataset Information](#dataset-information)
+- [References](#references)
+
 ## Requirements
 
 - Python version: **3.12.9**  
