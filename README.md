@@ -28,7 +28,7 @@ To run the code on Google Colab using a GPU, follow these steps:
 
 This project uses a dataset consisting of images of dogs and cats. Ensure that you download the dataset and place it in the correct directory structure as indicated in the code.
 
-- **Dataset Link:** [Kaggle Dogs vs Cats Dataset]([https://www.kaggle.com/c/dogs-vs-cats/data](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset))
+- **Dataset Link:** [Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
 
 ## Usage Instructions
 
