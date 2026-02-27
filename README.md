@@ -1,47 +1,53 @@
-# Dog and Cat Image Classification
+# Image Classification of Dogs and Cats
 
-## Introduction
-This project is designed to classify images as either dog or cat using deep learning techniques. The model is built with convolutional neural networks (CNN), which are effective in image classification tasks.
-
-## Acknowledgments
-The dataset used in this project comes from Kaggle's Dogs vs. Cats challenge.
+This repository contains code and resources for classifying images of dogs and cats using deep learning techniques.
 
 ## Requirements
-To run this project, you'll need the following software:
-- Python 3.6+
-- TensorFlow 2.x
-- Keras
-- NumPy
-- Matplotlib
 
-## Dataset
-The dataset consists of 25,000 images of dogs and cats, divided into training and testing sets. The images are of varying sizes and qualities.
+- Python version: **3.12.9**  
+  Ensure you have Python 3.12.9 installed. 
 
-### Data Structure
+- TensorFlow:  
+  Install TensorFlow for CPU:
+  ```bash
+  pip install tensorflow==2.12.0
+  ```
+  Alternatively, if you prefer using a GPU:
+  ```bash
+  pip install tensorflow-gpu==2.12.0
+  ```
+
+## Google Colab GPU Setup
+
+To run the code on Google Colab using a GPU, follow these steps:
+1. Open a new Colab notebook and select "Runtime" > "Change runtime type".
+2. Set the hardware accelerator to "GPU".
+3. Install the required libraries by running:
+   ```python
+   !pip install tensorflow==2.12.0
+   ```
+
+## Dataset Information
+
+This project uses a dataset consisting of images of dogs and cats. Ensure that you download the dataset and place it in the correct directory structure as indicated in the code.
+
+- **Dataset Link:** [Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
+
+## Usage Instructions
+
+You can run the training script as follows:
+```bash
+python train.py
 ```
-/dataset
-    /train
-        /dogs
-        /cats
-    /test
-        /dogs
-        /cats
-```
 
-## Model Architecture
-1. **Convolution Layer**: Captures spatial hierarchy.
-2. **Pooling Layer**: Reduces dimensionality.
-3. **Dense Layer**: Provides classification.
+## Links
+- [GitHub Repository](https://github.com/Sorawit-loyde/Image-classification-Dog-Cat)
+- [TensorFlow Documentation](https://www.tensorflow.org/api_docs/python/tf)
+- [Kaggle](https://www.kaggle.com)
 
-## Training the Model
-To train the model, follow these steps:
-1. Load the data.
-2. Preprocess the images (resize, normalize, etc.).
-3. Compile the model with appropriate loss and optimizer.
-4. Fit the model to the training data.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Evaluation
-After training, evaluate the model using the test dataset to check its performance.
+---
 
-## Conclusion
-This project demonstrates the use of CNNs for image classification tasks and provides a robust framework for future projects.
+Feel free to contribute by forking the repository and submitting a pull request!
