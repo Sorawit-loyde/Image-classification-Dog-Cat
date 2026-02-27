@@ -22,10 +22,7 @@ This repository contains code and resources for classifying images of dogs and c
 To run the code on Google Colab using a GPU, follow these steps:
 1. Open a new Colab notebook and select "Runtime" > "Change runtime type".
 2. Set the hardware accelerator to "GPU".
-3. Install the required libraries by running:
-   ```python
-   !pip install tensorflow==2.12.0
-   ```
+
 
 ## Dataset Information
 
