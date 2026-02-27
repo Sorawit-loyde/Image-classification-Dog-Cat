@@ -45,6 +45,6 @@ The dataset consists of labeled images containing dogs and cats, collected from 
 - **Dataset Link:** [Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
 
 ## References
-- **Notebook Link:**[CSE641-Transfer Learning](https://www.kaggle.com/c/dogs-vs-cats/data)
+- **Notebook Link:** [CSE641-Transfer Learning](https://www.kaggle.com/c/dogs-vs-cats/data)
 
 Feel free to contribute by forking the repository and submitting a pull request!
