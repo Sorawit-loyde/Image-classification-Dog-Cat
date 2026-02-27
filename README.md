@@ -31,6 +31,7 @@ This repository utilizes a convolutional neural network to classify images of do
 - **Lightweight Model**: The model is optimized to run efficiently on various platforms.
 
 ## Google Colab GPU Setup
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eyyw3FI9XAV3lqW4F3A1WfsCXkYXWoVK?usp=sharing)
 To run the code on Google Colab using a GPU, follow these steps:
 1. Open a new Colab notebook and select "Runtime" > "Change runtime type".
@@ -44,6 +45,6 @@ The dataset consists of labeled images containing dogs and cats, collected from 
 - **Dataset Link:** [Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
 
 ## References
-- [CSE641-Transfer Learning](https://www.kaggle.com/c/dogs-vs-cats/data)
+- **Notebook Link:**[CSE641-Transfer Learning](https://www.kaggle.com/c/dogs-vs-cats/data)
 
 Feel free to contribute by forking the repository and submitting a pull request!
